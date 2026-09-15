@@ -2,14 +2,9 @@
 
 ## À faire
 
-- [ ] Initialiser le dépôt git (`git init`)
-- [ ] Pousser sur GitHub (repo public)
-- [ ] Activer GitHub Pages pour consulter les mémentos en ligne
-- [ ] Harmoniser le nom du PDF dans `out/`
-
 ## Idées futures
 
-- [ ] Nouveaux mémentos (ex : réseau, sécurité, cloud/AWS...)
+- [ ] Nouveaux mémentos (ex : réseau, sécurité, cloud...)
 - [ ] Export PDF automatisé (script au lieu du bouton d'impression manuel)
 - [ ] Mode sombre
 - [ ] Recherche/filtrage des commandes dans la page
@@ -27,3 +22,7 @@
 - [x] Page de navigation `index.html`
 - [x] Formatage Prettier + config `.vscode`
 - [x] `.gitignore` et `README.md`
+- [x] Initialiser le dépôt git (`git init`)
+- [x] Pousser sur GitHub (repo public)
+- [x] Activer GitHub Pages pour consulter les mémentos en ligne
+- [x] Harmoniser le nom du PDF dans `out/`
