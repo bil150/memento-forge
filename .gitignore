@@ -1,0 +1,16 @@
+# Dépendances / outillage
+node_modules/
+npm-debug.log*
+
+# Fichiers générés (exports PDF, etc.)
+out/
+
+# Fichiers système
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Fichiers temporaires d'éditeur
+*.swp
+*.swo
+*~

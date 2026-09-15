@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="fr">
+	<head>
+		<meta charset="utf-8" />
+		<title>MementoForge</title>
+		<meta name="viewport" content="width=device-width,initial-scale=1" />
+		<link rel="stylesheet" href="css/memento.css" />
+		<style>
+			body {
+				padding: 40px 20px;
+			}
+			.nav-title {
+				text-align: center;
+				font-size: 2em;
+				font-weight: 700;
+				color: #1a1d23;
+				margin-bottom: 0.3em;
+			}
+			.nav-sub {
+				text-align: center;
+				color: #6b7280;
+				font-style: italic;
+				margin-bottom: 2em;
+			}
+			.nav-grid {
+				display: flex;
+				flex-wrap: wrap;
+				justify-content: center;
+				gap: 22px;
+				max-width: 1100px;
+				margin: 0 auto;
+			}
+			.nav-card {
+				display: block;
+				text-decoration: none;
+				width: 320px;
+				border-radius: 8px;
+				overflow: hidden;
+				background: #fff;
+				box-shadow: 0 3px 14px rgba(0, 0, 0, 0.14);
+				transition:
+					transform 0.15s,
+					box-shadow 0.15s;
+			}
+			.nav-card:hover {
+				transform: translateY(-3px);
+				box-shadow: 0 6px 20px rgba(0, 0, 0, 0.22);
+			}
+			.nav-card .head {
+				padding: 0.9em 1.1em;
+				color: #fff;
+				font-size: 1.25em;
+				font-weight: 700;
+			}
+			.nav-card .body {
+				padding: 1em 1.1em 1.2em;
+			}
+			.nav-card .desc {
+				display: block;
+				color: #4b4f58;
+				font-style: italic;
+				font-size: 0.95em;
+				margin-bottom: 0.8em;
+			}
+			.nav-card .pages {
+				display: inline-block;
+				font-size: 0.82em;
+				font-weight: 600;
+				color: #6b7280;
+				background: #eef2f7;
+				border-radius: 12px;
+				padding: 0.2em 0.8em;
+			}
+			.nav-card.linux .head {
+				background: #2e4057;
+			}
+			.nav-card.windows .head {
+				background: #0b4c86;
+			}
+			.nav-card.apps .head {
+				background: #c6653f;
+			}
+			.footer-note {
+				text-align: center;
+				margin-top: 2.5em;
+				font-size: 0.85em;
+				color: #9aa0ab;
+				font-style: italic;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="nav-title">MementoForge</div>
+		<div class="nav-sub">Choisis un mémento à consulter ou imprimer</div>
+		<div class="nav-grid">
+			<a class="nav-card linux" href="memento-linux.html">
+				<div class="head">🐧 GNU/Linux</div>
+				<div class="body">
+					<span class="desc">Commandes système, réseau, permissions, administration</span>
+					<span class="pages">2 pages (recto/verso)</span>
+				</div>
+			</a>
+			<a class="nav-card windows" href="memento-windows.html">
+				<div class="head">🪟 Windows</div>
+				<div class="body">
+					<span class="desc">PowerShell, cmd, gestion système Windows</span>
+					<span class="pages">2 pages (recto/verso)</span>
+				</div>
+			</a>
+			<a class="nav-card apps" href="memento-applicatifs.html">
+				<div class="head">🛠️ Dev &amp; Applicatifs</div>
+				<div class="body">
+					<span class="desc">Git, Docker, Claude, API, bases de données, CI/CD</span>
+					<span class="pages">2 pages (recto/verso)</span>
+				</div>
+			</a>
+		</div>
+		<div class="footer-note">bil150 — CC BY-NC-SA 4.0 — 2026</div>
+	</body>
+</html>
