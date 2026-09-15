@@ -1,4 +1,4 @@
-# MementoForge
+# memento-forge
 
 Aide-mémoires HTML imprimables (commandes Linux, Windows, Dev & Applicatifs), au format A4 paysage.
 
